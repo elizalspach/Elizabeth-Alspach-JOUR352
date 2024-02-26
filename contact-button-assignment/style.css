@@ -1,0 +1,40 @@
+/*
+MY COLOR PALETTE
+Color 1 - #01161E
+Color 2 - #124559
+Color 3 - #598392
+Color 4 - #AEC3B0
+Color 5 - #EFF6E0
+*/
+
+body{
+    background-color: #EFF6E0;
+    text-align: center;
+    
+}
+
+button {
+    background-color:#124559;
+    color:white;
+    font-family:"Arvo","sans-serif";
+    width:200px;
+    padding:20px;
+    margin:25px;
+    text-transform:uppercase;
+    border:none;
+    border-radius:7px;
+}
+
+button:hover{
+    background-color:#598392;
+}
+
+h1{
+    font-family: "Lato", "sans-serif";
+    color:#124559
+}
+
+h2{
+    font-family:"Lato","sans-serif";
+    color:#124559
+}
