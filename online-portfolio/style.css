@@ -1,0 +1,12 @@
+/*
+ * dark navy = 01161E
+ * navy = 124559
+ * blue-gray = 598392
+ * mint = AEC3B0
+ * sand = EFF6E0
+*/
+
+img {
+    width: 100%;
+    border: solid 5px #124559;
+}
