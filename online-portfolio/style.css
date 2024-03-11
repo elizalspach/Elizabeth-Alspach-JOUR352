@@ -36,6 +36,7 @@ h1 {
     font-size: 70px;
     font-family: "ovo", serif;
     color: #272727;
+    text-align:center;
 }
     
     #topper{
@@ -51,7 +52,9 @@ h1 {
         
     }
     
-   
+    navigation{
+        padding:0px 60px 0px 60px;
+    }
 }
 
 @media (min-width:576px){
