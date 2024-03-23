@@ -33,27 +33,50 @@ img {
 
 h1 {
    margin:10px;
+    padding: 30px, 20px, 30px, 20px;
     font-size: 70px;
     font-family: "ovo", serif;
     color: #272727;
     text-align:center;
 }
+
     
     #topper{
-        background-color: #CBDDD1
+        background-color: #CBDDD1;
+        text-align: center;
+        padding: 50px, 20px, 50px, 20px;
     }
-    body{
+    
+    button{
+        background-color: 01161E;
+        font-family: "ovo", serif;
+    }
+    #body{
         font-family: "monsterrat", sans-serif;
         color: #272727;
     }
     #content{
         font-family: "Montserrat", sans-serif;
-        background-color: #CBDDD1;
-        
+        background-color: #CBDDD1;        
     }
     
-    navigation{
-        padding:0px 60px 0px 60px;
+    #navigation{
+        padding:0px 80px 0px 80px;
+        text-align:center;
+    }
+    
+    #navigation a{
+        background-color: AEC3B0;
+        color:black;
+        font-size: 50px;
+        font-family: "montserrat", sans-serif;
+    }
+    #education{
+        text-align:center;
+    }
+    
+    #edu.body{
+        text-align:center;
     }
 }
 
