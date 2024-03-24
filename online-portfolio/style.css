@@ -68,20 +68,42 @@ h1 {
         color: #01161E;
         padding: 0px 0px 0px 0px;
     }
-    #jobtitle{
+    #jobtitle1{
         color: #01161E;
         font-size: 25px;
     }
-    #place{
+    #jobtitle2{
+        color: #01161E;
+        font-size: 25px;
+    }
+    #jobtitle3{
+        color: #01161E;
+        font-size: 25px;
+    }
+    #place1{
         color:#124559;
         font-size:20px;
     }
-    
-    #time{
+    #place2{
+        color:#124559;
+        font-size:20px;
+    }
+   #place3{
+        color:#124559;
+        font-size:20px;
+    }
+    #time1{
         color: #598392;
         font-size:18px;
     }
-    
+    #time2{
+        color: #598392;
+        font-size:18px;
+    }
+    #time3{
+        color: #598392;
+        font-size:18px;
+    }
     #content{
         font-family: "Montserrat", sans-serif;
         background-color: #CBDDD1;    
@@ -146,7 +168,13 @@ h1 {
         font-size:20px;
         color:#124559;
     }
-    #skill{
+    #skill1{
+       color:#124559;
+    }
+    #skill2{
+       color:#124559;
+    }
+    #skill3{
        color:#124559;
     }
     #footer{
