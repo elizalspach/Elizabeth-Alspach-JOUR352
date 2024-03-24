@@ -33,7 +33,7 @@ img {
 
 h1 {
    margin:10px;
-    padding: 30px, 20px, 30px, 20px;
+    padding: 30px 20px 30px 20px;
     font-size: 70px;
     font-family: "ovo", serif;
     color: #272727;
@@ -48,24 +48,31 @@ h1 {
     #topper{
         background-color: #CBDDD1;
         text-align: center;
-        padding: 50px, 20px, 50px, 20px;
+        padding: 50px 20px 50px 20px;
     }
     
-    button{
-        background-color: 01161E;
-        font-family: "ovo", serif;
-    }
+    button {
+    background-color:#124559;
+    color:white;
+    font-family:"Arvo","sans-serif";
+    width:200px;
+    padding:20px;
+    margin:25px;
+    text-transform:uppercase;
+    border:none;
+    border-radius:7px;
+}
     #body{
         font-family: "monsterrat", sans-serif;
         color: #01161E;
-        padding: 0px, 0px, 0px, 0px;
+        padding: 0px 0px 0px 0px;
     }
     #jobtitle{
         color: #01161E;
         font-size: 25px;
     }
     #place{
-        color: #598392;
+        color:#124559;
         font-size:20px;
     }
     
@@ -77,43 +84,81 @@ h1 {
     #content{
         font-family: "Montserrat", sans-serif;
         background-color: #CBDDD1;    
-         padding: 0px, 0px, 0px, 0px;
+         padding: 0px 0px 0px 0px;
     }
     
     #navigation{
         padding:0px 80px 0px 80px;
         text-align:center;
+         background-color: #AEC3B0;
+                justify-content:center;
+
     }
     
     #navigation a{
-        background-color: #AEC3B0;
         color:black;
-        font-size: 50px;
+        font-size: 40px;
         font-family: "oso", serif;
+        text-decoration: none;
     }
     #education{
         text-align:center;
     }
     
-    #edu.body{
+    #edubody{
         text-align:center;
     }
-    #edu.body2{
+    #edubody2{
         text-align:center;
     }
     #contact{
         font-size: 30px;
         text-align: center;
         font-family:"ovo", serif;
+        text-decoration:none;
+    }
+    #email{
+        text-decoration:none;
+        text-align:center;
+        font-family:"montserrat", sans-serif;
+        font-size:20px;
+        color:#124559;
+    }
+    #linkedin{
+        text-decoration:none;
+        text-align:center;
+        font-family:"montserrat", sans-serif;
+        font-size:20px;
+        color:#124559;
+    }
+    #twitter{
+        text-decoration:none;
+        text-align:center;
+        font-family:"montserrat", sans-serif;
+        font-size:20px;
+        color:#124559;
+    }
+    #github{
+        text-decoration:none;
+        text-align:center;
+        font-family:"montserrat", sans-serif;
+        font-size:20px;
+        color:#124559;
     }
     #skill{
-        color: #598392;
+       color:#124559;
+    }
+    #footer{
+        background-color: #124559;
+        text-align: center;
+        font-family: "montserrat", sans-serif;
+        color:white;
     }
 }
 
 @media (min-width:576px){
     h1{
-        margin: 40px 0px 10px 5px
+        margin: 40px 0px 10px 5px;
         font-size: 70px;
     }
 }
