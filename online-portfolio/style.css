@@ -43,8 +43,6 @@ h1 {
         font-family:"ovo", serif;
         font-size:40px;
     }
-
-   
     
     #topper{
         background-color: #CBDDD1;
@@ -113,9 +111,8 @@ h1 {
     #navigation{
         padding:0px 80px 0px 80px;
         text-align:center;
-         background-color: #AEC3B0;
-                justify-content:center;
-
+        background-color: #AEC3B0;
+        justify-content:center;
     }
     
     #navigation a{
