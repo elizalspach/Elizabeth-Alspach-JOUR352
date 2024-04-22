@@ -3,8 +3,10 @@ img{
 }
 
 #topper{
-    background-image:url(Screenshot%202024-04-22%20113159.png);
-    background-size:cover;
+    background-image: url(Screenshot%202024-04-22%20113159.png);
+    background-size: cover;
+    background-position: 10% 10%;
+    height:600px;
 }
 
 h1{
