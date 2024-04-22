@@ -1,0 +1,12 @@
+img{
+    width: 100%;
+}
+
+#topper{
+    background-image:url(Screenshot%202024-04-22%20113159.png);
+    background-size:cover;
+}
+
+h1{
+    padding: 0px 0px 300px 0px;
+}
