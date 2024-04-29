@@ -1,22 +1,73 @@
+/* dark-grey - #1B1919
+ * beige - #A68D7B
+ * dark blue #486A8B
+ * light gray #7A848E
+*/
+
 @media {
     img {
         width: 100%;
     }
 
+    body {
+        background: #1b1919;
+        font-family: "Merriweather", serif;
+        color:white;
+    }
+
     #topper {
         background-image: url(Screenshot%202024-04-22%20113159.png);
         background-size: cover;
-        background-position: 10% 10%;
+        background-position: 20% 20%;
         height: 600px;
+        padding:20px 20px 20px 20px;
     }
 
+    #topcap{
+        text-align:center;
+    }
+    
     .caption {
+        text-align: left;
+    }
+
+    .credit {
+        text-align: left;
+    }
+
+    .quote {
+        font-size: 65px;
+    }
+
+    .pullquote {
+        border-left: 3px solid white;
         text-align: center;
+        font-style: italic;
+        margin: 10px 10px 10px 10px;
+    }
+
+    .date {
+        font-family: "Merriweather", serif;
+        text-align: center;
+    }
+
+    .authors {
+        font-family: "Merriweather", serif;
+        text-align: center;
+    }
+
+    #creds {
+        text-align: center;
+        font-family: "Merriweather", serif;
     }
 
     h1 {
         padding: 0px 0px 300px 0px;
         color: white;
+    }
+
+    h2 {
+        text-align: center;
     }
 
     .caption {
@@ -32,7 +83,9 @@
     }
 
     #content {
-        text-align: center;
+        text-align: left;
+        font-size: 85%;
+        width: 100%;
     }
 }
 

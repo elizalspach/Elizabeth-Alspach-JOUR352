@@ -14,40 +14,46 @@
             crossorigin="anonymous" />
 
         <link href="style.css" rel="stylesheet" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap"
+            rel="stylesheet" />
     </head>
 
     <body>
-        <div class="container" id="topper">
+        <div class="container-fluid" id="topper">
             <div class="row">
-                <div class="column">
+                <div class="col">
                     <h1>
-                        As police struggle to solve homicides, Baltimore
-                        residents see an ‘open season for killing’
+                        Baltimore residents <br />see an ‘open season <br />
+                        for killing’ as police <br />
+                        struggle to solve <br />
+                        homicides
                     </h1>
+                    <p class="caption" id="topcap">
+                        Rubin Avenue in Baltimore, where Marcus Tafari Samuel
+                        Downer was shot and killed in 2015.
+                    </p>
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
+        <div class="container-fluid" id="creds">
             <div class="row">
-                <div class="column">
-                    <p class="caption">
-                        Rubin Avenue in Baltimore, where Marcus Tafari Samuel
-                        Downer was shot and killed in 2015.
-                        <span class="credit"
-                            >(Salwan Georges/The Washington Post)</span
-                        >
+                <div>
+                    <p class="date">Baltimore, 2018 | The Washington Post</p>
+                    <p class="authors">
+                        Wesley Lowery, Steven Rich, Salwan Georges and Jabin
+                        Botsford
                     </p>
-                </div>
-
-                <div class="row">
-                    <p class="date">December 27, 2018</p>
                 </div>
             </div>
         </div>
 
         <div class="container-fluid" id="content">
             <div class="row">
-                <div class="column">
+                <div class="col">
                     <p>Daphne Alston used to go to every funeral.</p>
                     <p>
                         A co-founder of Mothers of Murdered Sons and Daughters
@@ -72,12 +78,9 @@
                         Alston sits in St. John’s Alpha and Omega Pentecostal
                         Church on Dec. 9, in Baltimore. Alston's 22-year-old
                         son, Tariq Alston, was murdered in 2008.
-                        <span class="credit"
-                            >(Salwan Georges/The Washington Post)</span
-                        >
                     </p>
                 </div>
-                <div class="column" id="possible graphic area">
+                <div id="possible graphic area">
                     <p>
                         As Baltimore has seen a stunning surge of violence, with
                         nearly a killing each day for the past three years in a
@@ -133,9 +136,6 @@
                         it was announced in May 2015 that criminal charges would
                         be brought against all six officers involved in the Gray
                         case. None of the officers were convicted at trial.
-                        <span class="credit"
-                            >(Jabin Botsford/The Washington Post)</span
-                        >
                     </p>
                     <img src="Screenshot%202024-04-22%20113225.png" />
                     <p class="caption">
@@ -144,21 +144,8 @@
                         Freddie Gray in Baltimore on April 27, 2015. Gray died
                         from spinal injuries after he was arrested and
                         transported in a police van.
-                        <span class="credit"
-                            >(Jabin Botsford/The Washington Post)</span
-                        >
                     </p>
                     <h2>2015's dramatic shift</h2>
-                    <p>
-                        While there is evidence for and against a nationwide
-                        Ferguson effect — the theory that crime increased after
-                        2014 as police faced more scrutiny following the
-                        shooting of Michael Brown in Ferguson, Mo. — in
-                        Baltimore there is an indisputable Freddie Gray effect.
-                        As violence in the city has risen since 2015, the
-                        likelihood of a killer being arrested has dropped
-                        precipitously.
-                    </p>
                     <p>
                         While there is evidence for and against a nationwide
                         Ferguson effect — the theory that crime increased after
@@ -239,18 +226,12 @@
                         Pentecostal Church. Bruce's 23-year-old son, Marcus
                         Tafari Samuel Downer, was killed in 2015, and no one has
                         been held accountable.
-                        <span class="credit">
-                            (Salwan Georges/The Washington Post)</span
-                        >
                     </p>
                     <img src="Screenshot%202024-04-22%20113207.png" />
                     <p class="caption">
                         Bruce holds a necklace with photos of her son. Bruce
                         said police have a suspect in her son’s slaying, but
                         witnesses have been reluctant to talk.
-                        <span class="credit">
-                            (Salwan Georges/The Washington Post)</span
-                        >
                     </p>
 
                     <p>
@@ -306,9 +287,6 @@
                     <p class="caption">
                         A pedestrian walks along North Fulton Avenue in
                         Baltimore’s Sandtown-Winchester neighborhood on Dec. 10.
-                        <span class="credit">
-                            (Salwan Georges/The Washington Post)</span
-                        >
                     </p>
                     <p>
                         Local criminologists and activists say that the surge in
@@ -342,18 +320,16 @@
                         police less actively. Many Baltimore community leaders
                         fear that shift helped drive the uptick in violence.
                     </p>
-                    <img src="Screenshot%202024-04-22%20113238.png" />
-                    <p class="caption">
-                        James Dixon, a victim-witness advocate with the
-                        Baltimore Police Department, speaks during the Mothers
-                        of Murdered Sons and Daughters United monthly meeting in
-                        Baltimore on Dec. 9. He assured the group that the
-                        department is doing everything it can to bring killers
-                        to justice. He was met with skepticism and
-                        frustration.<span class="credit">
-                            (Salwan Georges/The Washington Post)</span
-                        >
-                    </p>
+                    <div class="pullquote">
+                        <p class="quote">
+                            My son was killed senselessly and the person is just
+                            walking freely as if nothing happened,
+                        </p>
+                        <p class="attribution">
+                            Cynthia Bruce, a member of Mothers of Murdered Sons
+                            and Daughters United, said.
+                        </p>
+                    </div>
                     <p>
                         Prosecutors failed to secure a single conviction in the
                         case — abandoning the prosecutions after a mistrial and
@@ -496,9 +472,6 @@
                         said of Baltimore. “After Freddie Gray, things just went
                         berserk.”
                     </p>
-                    <span class="credit"
-                        >(Salwan Georges/The Washington Post)</span
-                    >
                     <p>
                         Each meeting begins with an open floor, in which
                         families of victims can give updates on their cases.
@@ -552,6 +525,20 @@
                         hear our cry,” Alston said, downtrodden as she put on
                         her coat and headed out the sanctuary’s side door. “I
                         guess we have to just keep going to funerals.”
+                    </p>
+
+                    <p>
+                        <i>
+                            This story has been reproduced as a part of
+                            coursework for the Philip Merrill College of
+                            Journalism at the University of Maryland. It was
+                            originally published by
+                            <a
+                                href="https://www.washingtonpost.com/investigations/as-police-struggle-to-solve-homicides-baltimore-residents-see-an-open-season-for-killing/2018/12/26/7ee561e4-fb24-11e8-8c9a-860ce2a8148f_story.html"
+                                target="_blank"
+                                >The Washington Post.</a
+                            ></i
+                        >
                     </p>
                 </div>
             </div>
